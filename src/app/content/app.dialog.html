@@ -1,0 +1,26 @@
+<div><md-card>
+  <label>
+    Age:
+    <input #dialogInput>
+  </label>
+</md-card></div>
+<div>
+  <md-card>
+    <p>I am (select one or more):</p>
+    <md-checkbox>a school leaver</md-checkbox>
+    <md-checkbox>only a few years out of high school</md-checkbox>
+    <md-checkbox>a mature aged student</md-checkbox>
+    <md-checkbox>an international student</md-checkbox>
+  </md-card>
+</div>
+<div> <md-card>
+  <p>If participants selected option 2 or 3 above: Have you previously studied after leaving high school::</p>
+  <md-checkbox>Tafe</md-checkbox>
+  <md-checkbox>Private College</md-checkbox>
+  <md-checkbox>University</md-checkbox>
+  <md-checkbox>Other</md-checkbox>
+  <md-checkbox>No</md-checkbox>
+</md-card></div>
+
+
+<div> <button md-button (click)="dialogRef.close(dialogInput.value)" >CLOSE</button> </div>

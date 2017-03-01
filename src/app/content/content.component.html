@@ -1,0 +1,31 @@
+
+<md-toolbar color="primary">
+  <!--<button class="app-icon-button" (click)="sidenav.toggle()">
+    <i class="material-icons app-toolbar-menu">menu</i>
+  </button>-->
+
+  Emotion
+
+  <span class="app-toolbar-filler"></span>
+  <button md-button>Chuan
+  </button>
+
+</md-toolbar>
+
+<div class="app-content">
+  <md-card>
+    <h1>Agreements</h1>
+
+    <p>
+      Modern awards cover a whole industry or occupation and provide a safety net of minimum pay rates and employment conditions.
+      Enterprise agreements can be tailored to meet the needs of particular enterprises. An agreement must leave an employee better off overall when compared to the relevant award or awards.
+      Enterprise agreements are collective agreements made at an enterprise level between employers and employees about terms and conditions of employment. The Fair Work Commission can provide information on the process of making enterprise agreements, as well as assess and approve agreements. We can also deal with disputes that occur about the terms of agreements.
+    </p>
+    <button md-raised-button (click)="openDialog()">Agree</button>
+    <button md-raised-button (click)="showSnackbar()">Refuse</button>
+  </md-card>
+
+  <div class="container"><button md-mini-fab class="fab_button" routerLink="/firstpage"><md-icon>check</md-icon></button></div>
+
+</div>
+

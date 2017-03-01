@@ -1,0 +1,25 @@
+<div class="app-content">
+  <md-toolbar color="primary">Emotion
+
+  </md-toolbar>
+  <md-card>
+    <img md-card-image src="../../assets/sec.jpg">
+
+    <h1> When working with colleagues, how do you feel you are progressing compared to them? </h1>
+
+  </md-card>
+  <md-progress-bar
+    class="example-margin"
+    [attr.color]="primary"
+    [mode]="determinate">
+  </md-progress-bar>
+
+  <md-list class="ul">
+    <md-list-item class="ur1" >Ahead of schedule</md-list-item>
+    <md-list-item class="ur2" >On track</md-list-item>
+    <md-list-item class="ur3" >Behind</md-list-item>
+    <md-list-item class="ur4" >Very behind</md-list-item>
+    <md-list-item class="ur5" routerLink="/addtiontwo">Can’t tell</md-list-item>
+  </md-list>
+
+</div>

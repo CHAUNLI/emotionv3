@@ -1,0 +1,28 @@
+
+
+<div class="app-content">
+  <md-toolbar color="primary">Emotion
+
+  </md-toolbar>
+  <md-card>
+    <img md-card-image src="../../assets/Unknown.png">
+
+    <h1> Q1: How are you working?</h1>
+
+  </md-card>
+<md-progress-bar
+  class="example-margin"
+  [attr.color]="primary"
+  [mode]="determinate">
+</md-progress-bar>
+
+<md-list class="ul">
+  <md-list-item class="ur1" (click)="showSnackbar()"  (dblclick)="myNav()">Alone</md-list-item>
+  <md-list-item class="ur2" (dblclick)="myNav()">With peers</md-list-item>
+  <md-list-item class="ur3" routerLink="/secondpage">With peers and teachers</md-list-item>
+</md-list>
+
+</div>
+
+
+
